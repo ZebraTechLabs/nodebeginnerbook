@@ -8,7 +8,7 @@ function start(){
 
     exec("ls -lah", function(error, stdout, stderr){
 	content = stdout;
-    }
+    });
 
     return content;
 }
